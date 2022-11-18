@@ -1,0 +1,22 @@
+{
+  "name": "yarn-workspaces-demo",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "module": "type",
+  "repository": "https://github.com/cnryb/yarn-workspaces-demo.git",
+  "packageManager": "yarn@3.3.0",
+  "license": "MIT",
+  "scripts": {
+    "publish": "yarn workspaces foreach run publish"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}

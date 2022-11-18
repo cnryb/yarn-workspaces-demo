@@ -1,0 +1,14 @@
+{
+  "name": "@cnryb/add",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified in add \" && exit 1",
+    "publish": "yarn npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

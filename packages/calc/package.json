@@ -1,0 +1,18 @@
+{
+  "name": "@cnryb/calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified in calc\" && exit 1",
+    "publish": "yarn npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cnryb/add": "workspace:^",
+    "@cnryb/sub": "workspace:^"
+  }
+}

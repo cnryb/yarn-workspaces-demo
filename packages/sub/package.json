@@ -1,0 +1,14 @@
+{
+  "name": "@cnryb/sub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified in sub \" && exit 1",
+    "publish": "yarn npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
